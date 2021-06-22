@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="xcm" type="ssh/sftp">
+        <config>
+          <option name="projectRootOnTarget" value="/root/proglog" />
+          <option name="serverName" value="xcm" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goRoot" value="/usr/bin/go" />
+            <option name="goVersion" value="go1.15.7 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

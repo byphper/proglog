@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b14633e0-7501-4728-9824-7617bd60028e" name="xcm">
+        <fileTransfer rootFolder="/home/go_workspace" accessType="SFTP" host="42.193.44.89" port="22" sshConfigId="34513f37-654c-4d95-a75f-8fb6f9f931ab" sshConfig="xcm">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
