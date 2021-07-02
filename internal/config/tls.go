@@ -51,3 +51,4 @@ func SetupTLSConfig(cfg TLSConfig) (*tls.Config, error) {
 	}
 	return tlsConfig, nil
 }
+
