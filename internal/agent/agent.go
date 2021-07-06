@@ -30,7 +30,6 @@ type Config struct {
 	RPCPort int
 	// Raft server id.
 	NodeName string
-	// Bootstrap should be set to true when starting the first node of the cluster.
 	StartJoinAddrs []string
 	ACLModelFile   string
 	ACLPolicyFile  string
@@ -146,6 +145,7 @@ func (a *Agent) setupServer() error {
 	serverConfig := &server.Config{
 		CommitLog:  a.log,
 		Authorizer: authorizer,
+		GetServerer: a.log,
 	}
 	var opts []grpc.ServerOption
 	if a.Config.ServerTLSConfig != nil {
